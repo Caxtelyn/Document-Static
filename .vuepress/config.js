@@ -32,6 +32,6 @@ plugins: ['vuepress-plugin-smooth-scroll'],
    { 
       text: '论坛规范', link: '/rules/community/' 
       },
-      sidebar: 'auto'
-}}
-
+      {
+	      sidebar: 'auto',
+      }}
