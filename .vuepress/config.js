@@ -1,10 +1,12 @@
 module.exports = { 
-title: 'Axton's Docs', 
+title: 'Axton Docs', 
 description: `Never Give Up`, 
 dest: 'public',
 locales: {
-	lang: 'zh-CN',
-}
+    '/': {
+	    lang: 'zh-CN',
+    }
+},
 plugins: ['@vuepress/nprogress'],
 plugins: ['vuepress-plugin-smooth-scroll'],
   plugins: [
@@ -29,4 +31,4 @@ plugins: ['vuepress-plugin-smooth-scroll'],
       editLinkText: '在Github上编辑此页',
       lastUpdated: 'Last Updated',
       sidebar: 'auto',
-  }
+  }}
