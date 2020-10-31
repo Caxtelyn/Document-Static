@@ -1,9 +1,11 @@
 module.exports = { 
-title: '文档', 
-description: `文件归档`, 
+title: 'Axton's Docs', 
+description: `Never Give Up`, 
 dest: 'docs',
 locales: {
-	lang: 'zh-CN'plugins: ['@vuepress/nprogress'],
+	lang: 'zh-CN',
+}
+plugins: ['@vuepress/nprogress'],
 plugins: ['vuepress-plugin-smooth-scroll'],
   plugins: [
     [
@@ -26,11 +28,5 @@ plugins: ['vuepress-plugin-smooth-scroll'],
       editLinks: true,
       editLinkText: '在Github上编辑此页',
       lastUpdated: 'Last Updated',
-      nav: [ 
-      { 
-      text: '主页', link: '/' 
-            }, 
-   { 
-      text: '论坛规范', link: '/rules/community/' 
-      }]
-	  sidebar: 'auto'}
+      sidebar: 'auto',
+  }
