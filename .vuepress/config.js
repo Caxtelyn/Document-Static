@@ -1,7 +1,7 @@
 module.exports = { 
 title: 'Axton's Docs', 
 description: `Never Give Up`, 
-dest: 'docs',
+dest: 'public',
 locales: {
 	lang: 'zh-CN',
 }
